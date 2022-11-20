@@ -7,4 +7,3 @@ A Stable Baseline3-mat választottuk futtatás szempontjából, ahol a wandb log
 Futtatunk CartPole és Atari teszteket is, ezután a DuckieTown környezetet futtattuk, ahol párhuzamos tanulást is lehetővé tettünk.
 
 Létrehoztunk egy saját pályát, ahol az ágensnek közlekednie kell.
-
