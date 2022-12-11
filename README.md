@@ -14,40 +14,17 @@ Pálvölgyi Bence Tamás (AS3QSI)
 
 
 
-Projekt ismertetése:
-
--A Duckietown tesztkörnyezet telepítése és tesztelése.
-
-
-
 Fájlok funkciói:
 
 -readme.MD : readme file
 
--.ipynb : tesztelési kód
+-DuckieTown.zip: a környezethet szükséges file-ok
+
+-training_scripts_and_results.zip: a tanításhoz használt scriptek és az elért eredmények
 
 
 
 Futtatás módja:
 
-.ipynb
-
-
-
-
-
-Eddig elvégzett feladatok:
-
--AWS (Amazon Web Services) regisztráció és EC2 (Amazon Elastic Compute Cloud) ubuntu szerver igénylés 
-
--Szerver felállítása: Git összekötés, Docker és Duckietown Shell telepítés
-
-
-
-Tesztelés:
-
-Az alábbi parancssorral lehet a szerveren létrehozott fájlokkal, paraméteresen szimulációt indítani.
-
-$ dts duckiebot demo --duckiebot_name DUCKIEBOT_NAME --demo_name DEMO_NAME --package_name PACKAGE_NAME --image duckietown/IMAGE:daffy-arm32v7
-
+Tanításhoz futtatni kell valamelyik python script-et a training_scripts mappából, az eredmények megtekintéséhez meg kell nyitni a Tensorboard-ot.
 
